@@ -12,6 +12,7 @@
 		D948DF2A1EC1B3B100E25250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D948DF281EC1B3B100E25250 /* Main.storyboard */; };
 		D948DF2C1EC1B3B100E25250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D948DF2B1EC1B3B100E25250 /* Assets.xcassets */; };
 		D948DF2F1EC1B3B100E25250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D948DF2D1EC1B3B100E25250 /* LaunchScreen.storyboard */; };
+		D948DF381EC1B49C00E25250 /* HandleKeyboardDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D948DF371EC1B49C00E25250 /* HandleKeyboardDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D948DF2B1EC1B3B100E25250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D948DF2E1EC1B3B100E25250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D948DF301EC1B3B100E25250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D948DF371EC1B49C00E25250 /* HandleKeyboardDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleKeyboardDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D948DF231EC1B3B100E25250 /* AvoidingKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				D948DF361EC1B45600E25250 /* HandleKeyboard */,
 				D948DF241EC1B3B100E25250 /* AppDelegate.swift */,
 				D948DF261EC1B3B100E25250 /* ViewController.swift */,
 				D948DF281EC1B3B100E25250 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				D948DF301EC1B3B100E25250 /* Info.plist */,
 			);
 			path = AvoidingKeyboard;
+			sourceTree = "<group>";
+		};
+		D948DF361EC1B45600E25250 /* HandleKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D948DF371EC1B49C00E25250 /* HandleKeyboardDataSource.swift */,
+			);
+			path = HandleKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D948DF271EC1B3B100E25250 /* ViewController.swift in Sources */,
+				D948DF381EC1B49C00E25250 /* HandleKeyboardDataSource.swift in Sources */,
 				D948DF251EC1B3B100E25250 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +316,7 @@
 				D948DF351EC1B3B100E25250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
